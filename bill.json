@@ -1,0 +1,382 @@
+{
+    "type": "flex",
+    "altText": "Bill",
+    "contents": {
+      "type": "bubble",
+      "size": "giga",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "size": "xs",
+                "color": "#aaaaaa",
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "PAYMENT ID : "
+                  },
+                  {
+                    "type": "span",
+                    "text": "00000001",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "วันที่ 25 มกราคม 2565",
+                "color": "#aaaaaa",
+                "size": "xs",
+                "align": "end"
+              }
+            ],
+            "paddingStart": "15px",
+            "paddingEnd": "15px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ใบแจ้งชำระเงิน",
+                "weight": "bold",
+                "color": "#FFFFFF",
+                "size": "md",
+                "align": "center"
+              }
+            ],
+            "backgroundColor": "#0038A9",
+            "margin": "10px",
+            "paddingAll": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ห้อง B808 อาคาร B",
+                "weight": "bold",
+                "size": "xxl",
+                "margin": "md"
+              },
+              {
+                "type": "text",
+                "size": "xs",
+                "color": "#aaaaaa",
+                "wrap": true,
+                "contents": [
+                  {
+                    "type": "span",
+                    "text": "นายอำนวย ประชุมแต่เช้า "
+                  },
+                  {
+                    "type": "span",
+                    "text": "(081-111-2589)"
+                  }
+                ]
+              },
+              {
+                "type": "separator",
+                "margin": "xxl"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "margin": "none",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "รายการค่าใช้จ่าย",
+                            "align": "center",
+                            "color": "#0038A9",
+                            "weight": "bold"
+                          }
+                        ],
+                        "width": "65%",
+                        "borderColor": "#0038A9",
+                        "borderWidth": "2px",
+                        "paddingTop": "5px",
+                        "paddingBottom": "5px",
+                        "background": {
+                          "type": "linearGradient",
+                          "angle": "0deg",
+                          "startColor": "#0038A955",
+                          "endColor": "#0038A955",
+                          "centerColor": "#FFFFFF"
+                        }
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "จำนวนเงิน",
+                            "align": "center",
+                            "color": "#0038A9",
+                            "weight": "bold"
+                          }
+                        ],
+                        "borderColor": "#0038A9",
+                        "borderWidth": "2px",
+                        "offsetStart": "-2px",
+                        "paddingBottom": "5px",
+                        "paddingTop": "5px",
+                        "background": {
+                          "type": "linearGradient",
+                          "angle": "0deg",
+                          "startColor": "#0038A955",
+                          "endColor": "#0038A955",
+                          "centerColor": "#FFFFFF"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "text",
+                                "text": "ค่าเช่าห้อง",
+                                "align": "start",
+                                "weight": "regular"
+                              }
+                            ],
+                            "width": "65%",
+                            "borderColor": "#0038A9",
+                            "borderWidth": "1px",
+                            "paddingStart": "5px"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "text",
+                                "text": "1,000.-",
+                                "align": "end",
+                                "weight": "regular"
+                              }
+                            ],
+                            "borderColor": "#0038A9",
+                            "borderWidth": "1px",
+                            "offsetStart": "-2px",
+                            "paddingEnd": "5px"
+                          }
+                        ],
+                        "margin": "none"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "text",
+                                "text": "ค่าไฟฟ้า",
+                                "align": "start",
+                                "weight": "regular"
+                              }
+                            ],
+                            "width": "65%",
+                            "borderColor": "#0038A9",
+                            "borderWidth": "1px",
+                            "paddingStart": "5px"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "text",
+                                "text": "700.-",
+                                "align": "end",
+                                "weight": "regular"
+                              }
+                            ],
+                            "borderColor": "#0038A9",
+                            "borderWidth": "1px",
+                            "offsetStart": "-2px",
+                            "paddingEnd": "5px"
+                          }
+                        ],
+                        "margin": "none"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "text",
+                                "text": "ค่าน้ำ",
+                                "align": "start",
+                                "weight": "regular"
+                              }
+                            ],
+                            "width": "65%",
+                            "borderColor": "#0038A9",
+                            "borderWidth": "1px",
+                            "paddingStart": "5px"
+                          },
+                          {
+                            "type": "box",
+                            "layout": "vertical",
+                            "contents": [
+                              {
+                                "type": "text",
+                                "text": "300.-",
+                                "align": "end",
+                                "weight": "regular"
+                              }
+                            ],
+                            "borderColor": "#0038A9",
+                            "borderWidth": "1px",
+                            "offsetStart": "-2px",
+                            "paddingEnd": "5px"
+                          }
+                        ],
+                        "margin": "none"
+                      }
+                    ],
+                    "margin": "none",
+                    "borderWidth": "none",
+                    "borderColor": "#0038A9"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "รวมเงินทั้งหมด",
+                            "align": "start",
+                            "color": "#0038A9",
+                            "weight": "bold"
+                          }
+                        ],
+                        "width": "65%",
+                        "borderColor": "#0038A9",
+                        "borderWidth": "2px",
+                        "paddingAll": "5px"
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "2,000.-",
+                            "align": "end",
+                            "color": "#0038A9",
+                            "weight": "bold"
+                          }
+                        ],
+                        "borderColor": "#0038A9",
+                        "borderWidth": "2px",
+                        "offsetStart": "-2px",
+                        "paddingAll": "5px"
+                      }
+                    ],
+                    "spacing": "none",
+                    "margin": "none"
+                  }
+                ],
+                "paddingBottom": "0px",
+                "borderColor": "#0038A9"
+              }
+            ],
+            "paddingStart": "15px",
+            "paddingEnd": "15px"
+          },
+          {
+            "type": "text",
+            "text": "hello, world",
+            "margin": "sm",
+            "align": "center",
+            "size": "xs",
+            "contents": [
+              {
+                "type": "span",
+                "text": "กรุณาชำระภายในวันที่กำหนด หากเกินจะถูกปรับวันละ "
+              },
+              {
+                "type": "span",
+                "text": "1,000",
+                "weight": "bold",
+                "decoration": "underline"
+              },
+              {
+                "type": "span",
+                "text": " บาท"
+              }
+            ],
+            "wrap": true
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ฉันได้ชำระแล้ว",
+              "uri": "http://linecorp.com/"
+            },
+            "style": "primary",
+            "height": "sm"
+          }
+        ]
+      },
+      "styles": {
+        "footer": {
+          "separator": true
+        }
+      }
+    }
+  }
