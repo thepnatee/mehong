@@ -1,0 +1,67 @@
+{
+    "type": "flex",
+    "altText": "ขอแจ้งออก",
+    "contents": {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://firebasestorage.googleapis.com/v0/b/linemehongflex.appspot.com/o/Smart%20home-amico%201.png?alt=media&token=d061d69f-5b00-4d41-b257-9f5618da3389",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "5:3.5",
+            "gravity": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "position": "absolute",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "endColor": "#00000000",
+              "startColor": "#00000099"
+            },
+            "width": "100%",
+            "height": "40%",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "แจ้งออก",
+                  "uri": "https://linecorp.com"
+                },
+                "color": "#E23537"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "margin": "sm"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "paddingAll": "20px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    }
+  }
