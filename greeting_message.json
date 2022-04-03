@@ -1,0 +1,83 @@
+{
+        "type" : "flex",
+        "altText" : "Flex Message",
+        "contents" : {
+            "type" : "bubble",
+            "size" : "giga",
+            "hero" : {
+                "type" : "video",
+                "url" : "https://firebasestorage.googleapis.com/v0/b/linemehongflex.appspot.com/o/production%20ID%203770033.mp4?alt=media&token=438faea2-1a90-49e3-b050-657825f922f3",
+                "previewUrl" : "https://firebasestorage.googleapis.com/v0/b/linemehongflex.appspot.com/o/Screenshot%202022-03-28%20232449%20(2).png?alt=media&token=031571e3-455b-42b2-b025-ebbbd6e14412",
+                "altContent" : {
+                    "type" : "image",
+                    "size" : "full",
+                    "aspectRatio" : "16:9",
+                    "aspectMode" : "cover",
+                    "url" : "https://firebasestorage.googleapis.com/v0/b/linemehongflex.appspot.com/o/Screenshot%202022-03-28%20232449%20(2).png?alt=media&token=031571e3-455b-42b2-b025-ebbbd6e14412"
+                },
+                "aspectRatio" : "16:9"
+            },
+            "body" : {
+                "type" : "box",
+                "layout" : "vertical",
+                "contents" : [ 
+                    {
+                        "type" : "text",
+                        "text" : "ยินดีต้อนรับสู้ LINE ME HONG",
+                        "weight" : "bold",
+                        "size" : "xl",
+                        "wrap" : true
+                    }, 
+                    {
+                        "type" : "box",
+                        "layout" : "vertical",
+                        "margin" : "lg",
+                        "spacing" : "sm",
+                        "contents" : [ 
+                            {
+                                "type" : "text",
+                                "text" : "LINE ME HONG นี้จะช่วยให้ท่านและห้องว่างของเรามาเจอกันซึ่งท่านจะสามารถเข้าถึงห้างว่างได้มากมายจากเจ้าของห้องผู้ปล่อยเช่า",
+                                "wrap" : true
+                            }, 
+                            {
+                                "type" : "separator",
+                                "color" : "#00000000",
+                                "margin" : "10px"
+                            }, 
+                            {
+                                "type" : "text",
+                                "text" : "ห้องเช่าของเราได้ทำการตรวจสอบ ความเรียบร้อยและ ผ่านมาตราฐานความสะอาด ปลอดเชื้อ Covid -19",
+                                "wrap" : true
+                            }
+                        ]
+                    }
+                ],
+                "paddingAll" : "15px"
+            },
+            "footer" : {
+                "type" : "box",
+                "layout" : "vertical",
+                "spacing" : "sm",
+                "contents" : [ 
+                    {
+                        "type" : "button",
+                        "style" : "primary",
+                        "height" : "sm",
+                        "action" : {
+                            "type" : "uri",
+                            "label" : "เลือกดูห้อง",
+                            "uri" : "https://www.facebook.com/AISDEVIO"
+                        },
+                        "color" : "#4C1A82"
+                    }, 
+                    {
+                        "type" : "box",
+                        "layout" : "vertical",
+                        "contents" : [],
+                        "margin" : "sm"
+                    }
+                ],
+                "paddingAll" : "15px"
+            }
+        }
+    }
