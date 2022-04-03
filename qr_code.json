@@ -1,0 +1,157 @@
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ชื่อ:",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "หนูมาลีมีลูกแมว",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "เบอร์โทร:",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "0987643210",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "separator",
+                "margin": "md"
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ห้อง:",
+                    "color": "#aaaaaa",
+                    "size": "md",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "S711",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "md",
+                    "flex": 5,
+                    "weight": "bold"
+                  }
+                ],
+                "margin": "md"
+              }
+            ],
+            "justifyContent": "center",
+            "width": "65%",
+            "paddingStart": "10px",
+            "backgroundColor": "#FFFFFF",
+            "paddingEnd": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+                "aspectRatio": "1:1",
+                "aspectMode": "cover",
+                "size": "100%"
+              }
+            ],
+            "margin": "3px"
+          }
+        ],
+        "cornerRadius": "10px",
+        "borderColor": "#4C1A8288",
+        "borderWidth": "2px",
+        "backgroundColor": "#4C1A8288"
+      },
+      {
+        "type": "separator",
+        "margin": "xl",
+        "color": "#00000000"
+      },
+      {
+        "type": "text",
+        "text": "กรุณาแสดง qr code ให้เจ้าของห้อง\nqrcode นี้ใช้ได้เพียงครั้งเดียว\nหากต้องการยกเลิกก่อนเข้าห้องคลิกปุ่ม ยกเลิก",
+        "weight": "bold",
+        "size": "sm",
+        "align": "center",
+        "wrap": true
+      }
+    ],
+    "paddingAll": "15px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "ยกเลิก",
+          "uri": "https://linecorp.com"
+        },
+        "color": "#E23537"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0,
+    "paddingTop": "0px"
+  }
+}
