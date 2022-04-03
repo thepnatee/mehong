@@ -1,0 +1,77 @@
+{
+  "type": "flex",
+  "altText": "มีพัสดุส่งถึงท่าน",
+  "contents": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "image",
+          "url": "https://firebasestorage.googleapis.com/v0/b/linemehongflex.appspot.com/o/Messenger-pana.png?alt=media&token=c40dd13b-f2d3-4f4f-8dc2-0eaa873df16e",
+          "aspectRatio": "1:1",
+          "aspectMode": "cover",
+          "size": "full"
+        },
+        {
+          "type": "text",
+          "text": "Brown Cafe",
+          "weight": "bold",
+          "size": "md",
+          "contents": [
+            {
+              "type": "span",
+              "text": "จำนวนพัสดุของท่าน"
+            },
+            {
+              "type": "span",
+              "text": "  "
+            },
+            {
+              "type": "span",
+              "text": "10",
+              "weight": "bold",
+              "style": "italic",
+              "decoration": "underline",
+              "size": "xl"
+            },
+            {
+              "type": "span",
+              "text": "  "
+            },
+            {
+              "type": "span",
+              "text": "ชิ้น"
+            }
+          ],
+          "align": "center"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "primary",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "ตรวจสอบพัสดุ",
+            "uri": "https://linecorp.com"
+          },
+          "color": "#E23537"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [],
+          "margin": "sm"
+        }
+      ]
+    }
+  }
+}
